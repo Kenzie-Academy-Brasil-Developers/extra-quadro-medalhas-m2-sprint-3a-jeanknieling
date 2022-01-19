@@ -1,0 +1,143 @@
+body {
+    font-family: 'Inter';
+    background-color: #E9ECEF;
+}
+
+header {
+    background-color: #364FC7;
+    width: 100%;
+    height: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header figure img {
+    height: 50px;
+}
+
+header figcaption {
+    display: none;
+}
+
+section.pesquisa {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form .pesquisa__form__marcacaoPesquisa {
+    font-size: 15px;
+    align-self: flex-start;
+    margin: 32px 0 10px 0;
+}
+
+form .pesquisa__form__input {
+    min-width: 320px;
+    padding: 20px 0 20px 8px;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 5px;
+}
+
+form .pesquisa__form__button {
+    min-width: 320px;
+    font-size:16px;
+    padding: 20px;
+    color: #FFF;
+    background-color: #364FC7;
+    border: none;
+    border-radius: 5px;
+}
+
+form .pesquisa__form__marcacaoPesquisa--exemplo {
+    font-size: 12px;
+    color: #868E96;
+    margin-top: 10px;
+}
+
+main {
+    margin: 33px;
+    display: flex;
+    justify-content: center;
+}
+
+main .table {
+    display: none;
+    display: block;
+    width: 1380px;
+    overflow: scroll;
+}
+
+main .table::-webkit-scrollbar {
+    display: none;
+}
+
+
+td, th {
+    border: 1px solid #F8F9FA;
+}
+
+main th {
+    background-color: #364FC7;
+    padding: 20px;
+    color: #FFF;
+}
+
+.table tr button {
+    color: white;
+    background-color: #4058CA;
+    padding: 10px;
+    border: none;
+    width: 120px;
+    border-radius: 5px;
+}
+
+main tr .position {
+    width: 212px;
+}
+
+main tr .country {
+    width: 475px;
+    text-align: start;
+}
+
+main tr .gold {
+    width: 200px;
+}
+
+main tr .silver {
+    width: 200px;
+}
+
+main tr .bronze {
+    width: 200px;
+}
+
+main tr .total {
+    width: 200px;
+}
+
+main td {
+    text-align: center;
+    padding: 30px 0;
+}
+
+main .countryTd {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    
+}
+
+main .countryTd img {
+    width: 20px;
+    height: 15px;
+    margin: 0 15px;
+}
